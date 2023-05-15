@@ -1,0 +1,23 @@
+.icon{
+    font-size: 3rem;
+    background: white;
+    color: green;
+}
+.icon:hover{
+    transform: scale(1.5);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.whatsappchat{
+    position: fixed;
+    bottom: 0.5rem;
+    right: 1rem;
+}
+.whatsappchat p{
+    color: green;
+    text-align: center;
+
+}
+a{
+    text-decoration-line: none;
+}

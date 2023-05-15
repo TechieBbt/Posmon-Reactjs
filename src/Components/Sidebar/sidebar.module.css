@@ -1,0 +1,64 @@
+.side{
+    width: 280px;
+    height: 1302px;
+    background: #FFFFFF;
+    margin-top: -2rem;
+    margin-left: -0.7rem;
+}
+.side h4{
+    width: 200px;
+    height: 19px;
+    font-family: 'Open Sans';
+    font-style: bold;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 19px;
+    color: #1D242D;
+    padding: 0.8rem 0rem 1.2rem 2rem;
+}
+.line{
+    display: flex;
+    width: 240px;
+    height: 24px;
+    margin-top: 0.8rem;
+    padding-left: 2rem;
+}
+.line p span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    color: #4C6FFF;
+}
+.line p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #909DAD;
+    padding: 0rem 0.3rem 0rem 0.6rem;
+}
+
+@media screen and (max-width: 768px){
+    .side{
+        width: 215px;
+        margin-left: -1.1rem;
+    }
+    .line p{
+        font-size: 15.5px;
+        padding: 0rem 0.3rem 0.2rem 0.6rem;
+    }
+    .line p span{
+        font-size: 16px;
+    }
+    .line{
+        width: 220px;
+    }
+}
+@media screen and (max-width: 425px){
+    .side{
+        display: none;
+    }
+}

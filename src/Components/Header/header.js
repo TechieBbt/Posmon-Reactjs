@@ -16,7 +16,7 @@ const header = () => {
           </div>
           <div className={classes.icons}>
           <div className={classes.bell}><img src={Notification} alt='notify'/></div>
-          <div><img src={Profile} alt='user'/></div>
+          <div className={classes.profile}><img src={Profile} alt='user'/></div>
           </div>
         </div>
     </div>
